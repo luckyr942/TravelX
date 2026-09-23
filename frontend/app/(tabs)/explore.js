@@ -11,7 +11,6 @@ const CATEGORIES= [
     { label: "Nature", query: "nature travel destinations" },
     
 ];
-
 export default function Explore(){
     const router = useRouter();
 
@@ -74,7 +73,6 @@ export default function Explore(){
         </View>
     )
 }
-
 const styles = StyleSheet.create({
     container: {
         flex: 1,
